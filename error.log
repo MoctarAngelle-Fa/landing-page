@@ -1,0 +1,51 @@
+[21-Oct-2024 22:59:06 UTC] PHP Warning:  Undefined array key "HTTP_HOST" in C:\Users\simplon\Local Sites\landing-page\app\public\wp-includes\functions.php on line 6298
+[25-Oct-2024 12:53:54 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\simplon\Local Sites\landing-page\app\public\wp-includes\class-wp-customize-widgets.php on line 905
+[25-Oct-2024 12:56:10 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\simplon\Local Sites\landing-page\app\public\wp-includes\class-wp-customize-widgets.php on line 905
+[25-Oct-2024 12:58:49 UTC] PHP Warning:  Undefined array key 0 in C:\Users\simplon\Local Sites\landing-page\app\public\wp-content\plugins\astra-sites\inc\lib\astra-notices\class-astra-notices.php on line 207
+[25-Oct-2024 14:41:42 UTC] [Image Optimizer]: info in ImageOptimization\Modules\Core\Components\Migrations->run_migration(): The migration `fix_optimized_size_keys` successfully executed.
+[25-Oct-2024 14:41:42 UTC] [Image Optimizer]: info in ImageOptimization\Modules\Core\Components\Migrations->run_migration(): The migration `fix_mime_type` successfully executed.
+[25-Oct-2024 14:41:42 UTC] [Image Optimizer]: info in ImageOptimization\Modules\Core\Components\Migrations->run_migration(): The migration `fix_avif_with_zero_dimensions` successfully executed.
+[25-Oct-2024 14:41:57 UTC] [Image Optimizer]: info in ImageOptimization\Modules\ConnectManager\Components\Connect->get_connect_status(): Status check error. Reason: User is not connected
+[25-Oct-2024 15:01:58 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\simplon\Local Sites\landing-page\app\public\wp-content\plugins\elementor\includes\managers\image.php on line 113
+[25-Oct-2024 15:01:58 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\simplon\Local Sites\landing-page\app\public\wp-content\plugins\elementor\includes\managers\image.php on line 113
+[25-Oct-2024 15:01:58 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\simplon\Local Sites\landing-page\app\public\wp-content\plugins\elementor\includes\managers\image.php on line 113
+[25-Oct-2024 15:01:58 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\simplon\Local Sites\landing-page\app\public\wp-content\plugins\elementor\includes\managers\image.php on line 113
+[25-Oct-2024 15:01:58 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\simplon\Local Sites\landing-page\app\public\wp-content\plugins\elementor\includes\managers\image.php on line 113
+[25-Oct-2024 15:01:58 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\simplon\Local Sites\landing-page\app\public\wp-content\plugins\elementor\includes\managers\image.php on line 113
+[25-Oct-2024 15:01:58 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\simplon\Local Sites\landing-page\app\public\wp-content\plugins\elementor\includes\managers\image.php on line 113
+[25-Oct-2024 15:01:58 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\simplon\Local Sites\landing-page\app\public\wp-content\plugins\elementor\includes\managers\image.php on line 113
+[25-Oct-2024 15:59:26 UTC] [Image Optimizer]: info in ImageOptimization\Modules\ConnectManager\Components\Connect->get_connect_status(): Status check error. Reason: User is not connected
+[25-Oct-2024 16:00:39 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Leadin\admin\api\wp_json_decode() in C:\Users\simplon\Local Sites\landing-page\app\public\wp-content\plugins\leadin\public\admin\modules\api\class-user-meta-api-controller.php:43
+Stack trace:
+#0 C:\Users\simplon\Local Sites\landing-page\app\public\wp-includes\rest-api\class-wp-rest-server.php(1230): Leadin\admin\api\User_Meta_Api_Controller->track_consent(Object(WP_REST_Request))
+#1 C:\Users\simplon\Local Sites\landing-page\app\public\wp-includes\rest-api\class-wp-rest-server.php(1063): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/leadin/v1/trac...', Array, NULL)
+#2 C:\Users\simplon\Local Sites\landing-page\app\public\wp-includes\rest-api\class-wp-rest-server.php(439): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#3 C:\Users\simplon\Local Sites\landing-page\app\public\wp-includes\rest-api.php(420): WP_REST_Server->serve_request('/leadin/v1/trac...')
+#4 C:\Users\simplon\Local Sites\landing-page\app\public\wp-includes\class-wp-hook.php(324): rest_api_loaded(Object(WP))
+#5 C:\Users\simplon\Local Sites\landing-page\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#6 C:\Users\simplon\Local Sites\landing-page\app\public\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+#7 C:\Users\simplon\Local Sites\landing-page\app\public\wp-includes\class-wp.php(418): do_action_ref_array('parse_request', Array)
+#8 C:\Users\simplon\Local Sites\landing-page\app\public\wp-includes\class-wp.php(813): WP->parse_request('')
+#9 C:\Users\simplon\Local Sites\landing-page\app\public\wp-includes\functions.php(1336): WP->main('')
+#10 C:\Users\simplon\Local Sites\landing-page\app\public\wp-blog-header.php(16): wp()
+#11 C:\Users\simplon\Local Sites\landing-page\app\public\index.php(17): require('C:\\Users\\simplo...')
+#12 {main}
+  thrown in C:\Users\simplon\Local Sites\landing-page\app\public\wp-content\plugins\leadin\public\admin\modules\api\class-user-meta-api-controller.php on line 43
+[25-Oct-2024 16:58:52 UTC] PHP Warning:  Undefined array key "editor_post_id" in C:\Users\simplon\Local Sites\landing-page\app\public\wp-content\plugins\elementor\modules\history\revisions-manager.php on line 363
+[25-Oct-2024 18:28:14 UTC] PHP Warning:  Undefined array key "add_ons" in C:\Users\simplon\Local Sites\landing-page\app\public\wp-content\plugins\elementor\modules\home\transformations\filter-plugins.php on line 21
+[25-Oct-2024 18:28:14 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\simplon\Local Sites\landing-page\app\public\wp-content\plugins\elementor\modules\home\transformations\filter-plugins.php on line 21
+[25-Oct-2024 18:28:14 UTC] PHP Fatal error:  Uncaught TypeError: Elementor\Modules\Home\Transformations\Filter_Plugins::get_add_ons_installation_status(): Argument #1 ($add_ons) must be of type array, null given, called in C:\Users\simplon\Local Sites\landing-page\app\public\wp-content\plugins\elementor\modules\home\transformations\filter-plugins.php on line 21 and defined in C:\Users\simplon\Local Sites\landing-page\app\public\wp-content\plugins\elementor\modules\home\transformations\filter-plugins.php:30
+Stack trace:
+#0 C:\Users\simplon\Local Sites\landing-page\app\public\wp-content\plugins\elementor\modules\home\transformations\filter-plugins.php(21): Elementor\Modules\Home\Transformations\Filter_Plugins->get_add_ons_installation_status(NULL)
+#1 C:\Users\simplon\Local Sites\landing-page\app\public\wp-content\plugins\elementor\modules\home\classes\transformations-manager.php(48): Elementor\Modules\Home\Transformations\Filter_Plugins->transform(Array)
+#2 C:\Users\simplon\Local Sites\landing-page\app\public\wp-content\plugins\elementor\modules\home\api.php(24): Elementor\Modules\Home\Classes\Transformations_Manager->run_transformations()
+#3 C:\Users\simplon\Local Sites\landing-page\app\public\wp-content\plugins\elementor\modules\home\api.php(18): Elementor\Modules\Home\API::transform_home_screen_data(Array)
+#4 C:\Users\simplon\Local Sites\landing-page\app\public\wp-content\plugins\elementor\modules\home\module.php(99): Elementor\Modules\Home\API::get_home_screen_items()
+#5 C:\Users\simplon\Local Sites\landing-page\app\public\wp-content\plugins\elementor\modules\home\module.php(65): Elementor\Modules\Home\Module->get_app_js_config()
+#6 C:\Users\simplon\Local Sites\landing-page\app\public\wp-includes\class-wp-hook.php(324): Elementor\Modules\Home\Module->enqueue_home_screen_scripts('')
+#7 C:\Users\simplon\Local Sites\landing-page\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#8 C:\Users\simplon\Local Sites\landing-page\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#9 C:\Users\simplon\Local Sites\landing-page\app\public\wp-admin\admin-header.php(139): do_action('admin_print_scr...')
+#10 C:\Users\simplon\Local Sites\landing-page\app\public\wp-admin\admin.php(239): require_once('C:\\Users\\simplo...')
+#11 {main}
+  thrown in C:\Users\simplon\Local Sites\landing-page\app\public\wp-content\plugins\elementor\modules\home\transformations\filter-plugins.php on line 30
